@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ambprime | Soluções Ambientais</title>
+  <link rel="shortcut icon" href="src/assets/imagens/amb-favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="src/css/style.css" type="text/css">
+  <link rel="stylesheet" href="src/css/responsive.css" type="text/css">
+  <link rel="stylesheet" href="src/css/tabs.css" type="text/css">
+  <link rel="stylesheet" href="src/css/scrollbar.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    type="text/css">
+</head>
+
+<body>
+  <header class="header">
+    <img class="logo" src="src/assets/imagens/amb-logo-horizontal.png" alt="ambprime">
+    <div id="hamburguer" class="hamburguer" onclick="toggleMenu()">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+
+    <nav class="nav-bar">
+      <ul class="ul-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="src/pages/sobre/sobre.html">Quem somos</a></li>
+        <li><a href="src/pages/contato/contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="banner" onclick="scrollToDiv('div1')">
+    <p>
+      Na dança do meio ambiente e segurança, protegemos e preservamos, comprometidos com um caminho sustentável e
+      seguro.
+    </p>
+    <img id="banner-desktop" src="src/assets/imagens/amb-banner.png" alt="meio-ambiente">
+    <img id="banner-mobile" src="src/assets/imagens/amb-banner-mobile.png" alt="meio-ambiente">
+  </div>
+
+  <div class="services-area" onclick="scrollToDiv('div2')">
+
+    <div class="content">
+      <div class="text-section">
+        <h1>Como os nossos serviços ambientais estão moldando um amanhã mais verde?</h1>
+        <p class="main-services-p">Comprometemo-nos a inovar, preservar e renovar. Cada solução que oferecemos é um
+          passo em direção a um ambiente mais saudável e sustentável, porque acreditamos que o presente molda o futuro,
+          e o nosso futuro é verde.</p>
+      </div>
+      <div class="image-section">
+        <img class="draw-imb" src="src/assets/imagens/amb-draw.svg" alt="services-ambprime">
+      </div>
+    </div>
+
+
+    <img class="draw-imb-column" src="src/assets/imagens/amb-draw.svg" alt="services-ambprime">
+
+    <!-- <div id="serviços"></div> -->
+    <div id="services" class="wrapper">
+      <div class="panel animated slideInDown">
+        <h3>LICENCIAMENTO</h3>
+        <p>Conheça nossos serviços de Licenciamento</p>
+        <img class="img-wrapper" src="src/assets/imagens/cards-servicos/licence.svg" alt="Licenciamento">
+        <span><img id="explore-service" src="src/assets/imagens/icons/explore.icon.png" alt="explore"></span>
+        <div class="slide">
+
+          <h4>Serviços de Licenciamento</h4>
+          <ul>
+            <li><a href="#"><i class="fa fa-check"></i>Licença Prévia (LP)</a></li>
+            <li><a href="#"><i class="fa fa-check"></i>Licença de Instalação (LI)</a></li>
+            <li><a href="#"><i class="fa fa-check"></i>Licença de Operação (LO)</a></li>
+            <li><a href="#"><i class="fa fa-check"></i>Renovações de Licenças</a></li>
+            <li><a href="#"><i class="fa fa-check"></i>DAEE - Outorga de captação/lançamento</a></li>
+            <li><a href="#"><i class="fa fa-check"></i>Cadastro IBAMA</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="panel animated slideInDown">
+
+        <h3>PLANEJAMENTO</h3>
+        <p>Conheça nossos serviços de Planejamento</p>
+
+        <img class="img-wrapper" id="plans-img" src="src/assets/imagens/cards-servicos/planejamento.svg"
+          alt="planejamentos">
+        <span><img id="explore-service" src="src/assets/imagens/icons/explore.icon.png" alt="explore"></span>
+        <div class="slide">
+          <h4>Serviços de Planejamento</h4>
+          <ul>
+            <li><a href="#"><i class="fa fa-check"></i>Elaboração de estudos de impacto ambiental (EIA)<br> e relatório
+                de impacto ambiental (RIMA)</a></li>
+            <li><a href="#"><i class="fa fa-check"></i>Elaboração de planos de gerenciamento de resíduos sólidos
+                (PGRS)</a></li>
+            <li><a href="#"><i class="fa fa-check"></i>Elaboração de planos de controle ambiental (PCA)</a></li>
+            <li><a href="#"><i class="fa fa-check"></i>Elaboração de planos de recuperação de áreas degradadas
+                (PRAD)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="panel animated slideInDown">
+        <h3>ISO 14001</h3>
+        <p>Conheça nossos serviços de <br>ISO 14001</p>
+        <img class="img-wrapper" src="src/assets/imagens/cards-servicos/ISO 14001.svg" alt="ISO 14001">
+        <span><img id="explore-service" src="src/assets/imagens/icons/explore.icon.png" alt="explore"></span>
+        <div class="slide">
+
+          <h4>Serviços de ISO 14001</h4>
+          <ul>
+            <li><a href="#"><i class="fa fa-check"></i>Auditoria de diagnóstico (gap analysis)</a></li>
+            <li><a href="#"><i class="fa fa-check"></i>Consultoria para implantação e certificação</a></li>
+            <li><a href="#"><i class="fa fa-check"></i>Consultoria para transição</a></li>
+            <li><a href="#"><i class="fa fa-check"></i>Auditoria de segunda parte (fornecedores)</a></li>
+            <li><a href="#"><i class="fa fa-check"></i>Treinamento de interpretação</a></li>
+            <li><a href="#"><i class="fa fa-check"></i>Treinamento para formação de auditor interno</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="brand-list">
+    <div class="wrapper2">
+      <img src="src/assets/imagens/amb-favicon.ico" alt="CECON">
+      <img src="src/assets/imagens/amb-favicon.ico" alt="CORPAK">
+      <img src="src/assets/imagens/amb-favicon.ico" alt="ICS Consultoria">
+      <img src="src/assets/imagens/amb-favicon.ico" alt="Borkar">
+      <img src="src/assets/imagens/amb-favicon.ico" alt="Mouldflex">
+
+    </div>
+
+    <section>
+      <footer class="top">
+        <img src="src/assets/imagens/logo-footer.png" />
+        <div class="links">
+          <div>
+            <h2>Links Úteis</h2>
+            <a href="#">services</a>
+            <a>Quem Somos</a>
+            <a>Trabalhe Conosco</a>
+            <a>Contato</a>
+          </div>
+
+          <div>
+            <h2>Contato</h2>
+            <a>contato@ambprime.com.br</a>
+            <p>(11) 93010-5557</p>
+          </div>
+
+        </div>
+      </footer>
+      <footer class="bottom">
+        <div class="legal">
+          <span> © 2024 todos os direitos reservados </span>
+
+        </div>
+        <div class="links">
+          <p>Siga-nos</p>
+          <ion-icon id="linkedin" name="logo-linkedin"></ion-icon>
+
+        </div>
+      </footer>
+    </section>
+
+    <!--Botão whatsapp-->
+    <a href="https://wa.me/numero" target="_blank">
+      <div class="btn-whatsapp pulsaDelay"><i class="fa fa-whatsapp"></i></div>
+    </a>
+
+    <button onclick="scrollToTop()" id="scrollBtn" title="Voltar para o Topo">
+      <span class="arrow-up"></span>
+    </button>
+
+
+    <script src="src/js/app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </div>
+</body>
+
+</html>

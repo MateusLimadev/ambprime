@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  /*Fonts*/
+  --font-principal: "Montserrat", sans-serif;
+
+  /*Cores*/
+  --cor-background: #33a74a;
+  --cor-background-esc: #004652;
+  --cor-text: #fff;
+}
+
+body {
+  background-color: white;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.content-about {
+  width: 80%;
+  font-family: var(--font-principal);
+}
+
+.content-about h1 {
+  color: #33a74a;
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.content-about p {
+  line-height: 1.9;
+  font-size: 15px;
+  color: #004652;
+  text-align: left;
+  font-weight: 400;
+  padding: 30px 0 40px 0;
+}
+
+.content-about img {
+  width: 80%;
+  border-radius: 20px;
+}
+
+.mvvcontainer {
+  width: 80%;
+  margin: 60px auto;
+  justify-content: center;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.missao {
+  display: flex;
+  padding: 40px;
+  box-shadow: 0 4px 8px #00465274;
+  border-radius: 20px;
+}
+
+.missao h1 {
+  color: #33a74a;
+}
+
+.missao p {
+  color: #004652;
+}
+
+.visao {
+  display: flex;
+  text-align: right;
+  justify-content: right;
+  padding: 40px;
+  box-shadow: 0 4px 8px #00465274;
+  border-radius: 20px;
+}
+
+.visao h1 {
+  color: #33a74a;
+}
+
+.visao p {
+  color: #004652;
+}
+
+.visao img {
+  margin-right: 50px;
+}
+
+.mvvcontainer img {
+  width: 200px;
+}
+
+.mvvcontent {
+  display: flex;
+}
+
+#accordionFlushExample {
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.questions {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.questions h1 {
+  text-align: center;
+  padding-bottom: 30px;
+  color: #33a74a;
+}
+
+.questions button {
+  color: #004652;
+}
+
+.accordion-body {
+  text-align: left;
+  font-size: 14px;
+}
+
+.valores h1 {
+  color: #33a74a;
+}
+
+.valores ul,
+li {
+  color: #004652;
+}

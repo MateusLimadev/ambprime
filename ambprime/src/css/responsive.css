@@ -1,0 +1,213 @@
+@media screen and (max-width: 680px) {
+  .banner p {
+    position: absolute;
+    top: 37%;
+    left: 8%;
+    width: 81%;
+    transform: translateY(-50%);
+    margin: 0 2%;
+    line-height: 1.9;
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 0;
+  }
+
+  #banner-desktop {
+    display: none;
+  }
+
+  #banner-mobile {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .desktop-logo {
+    display: none; /* oculta a logo do LinkedIn para desktop em dispositivos móveis */
+  }
+
+  .mobile-logo {
+    display: inline-block; /* exibe a logo do LinkedIn para dispositivos móveis */
+  }
+
+  .linkedin-logo {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    top: 88%;
+    margin: 0;
+  }
+
+  .hamburguer {
+    display: block;
+  }
+
+  #explore-service {
+    display: block;
+  }
+
+  .span-clientarea {
+    margin-left: 0;
+  }
+
+  .services-area h1 {
+    font-size: 25px;
+  }
+
+  .logo {
+    width: 150px;
+    position: fixed;
+  }
+
+  .nav-bar ul {
+    display: none; /* Oculta o menu ul por padrão em telas menores */
+    flex-direction: column; /* Altera a direção para coluna */
+  }
+
+  .nav-bar.active ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: calc(103% - 95px);
+    background-color: #0c4d19;
+    opacity: 1;
+    z-index: 1;
+    clip-path: circle(0% at 50% 50%);
+    animation: fillBubble 1s ease forwards;
+  }
+
+  @keyframes fillBubble {
+    0% {
+      clip-path: circle(0% at 50% 50%);
+    }
+    100% {
+      clip-path: circle(100% at 50% 50%);
+    }
+  }
+
+  .nav-bar.active li {
+    margin-right: 0px;
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+
+  .nav-bar.active a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    position: relative;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+  }
+
+  .nav-bar.active a:hover {
+    border-bottom: 2px solid #30c54e;
+    padding-bottom: 10px;
+    color: #30c54e;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-bar.active {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .nav-bar.active ul {
+    margin-top: 88px;
+    text-align: left;
+  }
+}
+
+/*AREA SERVIÇOS*/
+/* Media Query for Mobile */
+@media (max-width: 767px) {
+  .wrapper {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+  }
+
+  .draw-imb-column {
+    max-width: 60%;
+  }
+
+  .panel {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .missao {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .visao {
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .visao p,
+  h1 {
+    text-align: left;
+  }
+}
+
+/* Media Query for Tablet */
+@media (min-width: 768px) {
+  .panel {
+    float: left;
+    margin: 50px 20px;
+  }
+}
+
+/* Media Query for Desktop 1440px*/
+@media (min-width: 1440px) {
+  .draw-imb-column {
+    max-width: 60%;
+  }
+
+  .missao {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .visao {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .visao p,
+  h1 {
+    text-align: left;
+  }
+}
+
+/* Media Query for Desktop 1600px*/
+@media (max-width: 1600px) {
+  body {
+    max-width: 100%;
+  }
+
+  .banner img {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .content-about img {
+    width: 70%;
+    /* border-radius: 20px; */
+  }
+}
