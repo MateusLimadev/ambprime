@@ -691,20 +691,3 @@ footer.bottom .links > a {
   z-index: -1;
 }
 
-/*AREA CONTATO */
-.body-contact {
-  background-color: #fff;
-}
-
-.container-contato {
-  padding-top: 150px;
-  width: 500px;
-  padding-left: 40px;
-}
-
-.content-contato h1 {
-  padding-bottom: 15px;
-}
-.content-contato p {
-  padding-bottom: 20px;
-}
