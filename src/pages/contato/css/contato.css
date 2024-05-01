@@ -7,17 +7,29 @@
 
 .container-contato {
   padding-top: 150px;
-  width: 500px;
-  justify-content: center;
+  width: 80%;
   margin: auto;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+ 
+}
+
+.content-contato{
+  margin-top: 40px;
 }
 
 .content-contato h1 {
   padding-bottom: 15px;
+  text-align: left;
 }
 .content-contato p {
   padding-bottom: 20px;
+  text-align: center;
+  padding: 40px;
+  padding-top: 10px;
 }
 
 .content-contato h1 {
@@ -30,7 +42,7 @@
 
 
 .container {
-  max-width: 500px;
+  max-width: 100%;
   margin: 50px auto;
   padding: 20px;
   background-color: #fff;
@@ -61,7 +73,7 @@ textarea {
 }
 
 button[type="submit"] {
-  background-color: #007bff;
+  background-color: #33a74a;
   color: #fff;
   padding: 12px 20px;
   border: none;
@@ -74,5 +86,15 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #186427;
+}
+
+
+#svg-contact{
+  width: 450px;
+  margin-bottom: 20px;
+}
+
+.socials{
+ gap: 60px;
 }
