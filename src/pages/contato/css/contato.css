@@ -112,6 +112,10 @@ form{
   
 }
 
+.contacts  img{
+  width: 40px;
+}
+
 
 .contacts > img:first-child{
   margin-left: 18px;
@@ -123,4 +127,12 @@ form{
     flex-direction: column;
   }
   
+  .contacts  img{
+    width: 30px;
+    
+  }
+
+  .content-contato p{
+    font-size: 14px;
+  }
 }
