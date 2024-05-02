@@ -32,6 +32,7 @@
   padding: 40px;
   padding-top: 10px;
   font-family: 'Montserrat';
+  line-height: 1.5;
  
 }
 
@@ -53,7 +54,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+h3 {
   text-align: center;
   color: #333;
   font-family: 'Montserrat';
@@ -100,7 +101,7 @@ form{
 
 
 #svg-contact{
-  width: 450px;
+  width: 350px;
   margin-bottom: 20px;
 }
 
