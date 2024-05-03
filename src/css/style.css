@@ -691,3 +691,58 @@ footer.bottom .links > a {
   z-index: -1;
 }
 
+
+
+/*AREA TRABALHE CONOSCO*/
+
+
+.container-jobs{
+  display: flex;
+  padding-top: 230px;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  gap: 70px;
+
+}
+
+.container-jobs h1{
+  color: #33A74A;
+  font-family: var(--font-principal);
+  padding-bottom: 30px;
+  font-size: 50px;
+}
+
+.container-jobs a{
+  text-decoration: none;
+  color: #2ebe57;
+  font-size: 16px;
+  font-family: var(--font-principal);
+}
+
+.container-jobs p{
+  color: #004652;
+  font-family: var(--font-principal);
+ 
+}
+
+.container-jobs #svg{
+  margin-right: 60px;
+}
+
+.contacts-jobs{
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  gap: 10px;
+
+}
+
+.contacts-jobs img{
+  width: 40px;
+}
+
+.body-jobs{
+  background-color: #fff;
+}
+

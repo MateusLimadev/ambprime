@@ -158,10 +158,38 @@
     flex-direction: column-reverse;
   }
 
+  .container-jobs{
+    flex-direction: column;
+  }
+
   .visao p,
   h1 {
     text-align: left;
   }
+}
+
+@media (max-width: 1050px){
+  .container-jobs{
+    flex-direction: column;
+    padding-top: 150px;
+  }
+
+  .contacts-jobs{
+    flex-direction: row;
+  }
+
+  .container-jobs h1{
+    font-size: 40px;
+  }
+
+  .container-jobs #svg{
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 80px;
+  }
+
+  
 }
 
 /* Media Query for Tablet */
@@ -192,7 +220,11 @@
   h1 {
     text-align: left;
   }
+
+  
 }
+
+
 
 /* Media Query for Desktop 1600px*/
 @media (max-width: 1600px) {
