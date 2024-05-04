@@ -49,12 +49,13 @@ function openModal(content) {
     }
   });
   
-  // Ao clicar em um item da lista, exiba o modal com as informações relevantes
-  $('ul li a').click(function(e) {
+// Ao clicar em um item da lista, exiba o modal com as informações relevantes
+$('[data-service]').on('click', function(e) {
     e.preventDefault(); // Previne o comportamento padrão do link
     var service = $(this).data('service'); // Obtém o atributo data-service do link clicado
     var content = ''; // Aqui você adicionará o conteúdo do modal com base no serviço clicado
-  
+    //...
+ 
     // Verifica qual serviço foi clicado e atribui o conteúdo apropriado
     switch(service) {
       case 'lp':
