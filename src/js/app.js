@@ -62,9 +62,12 @@ $('[data-service]').on('click', function(e) {
         content = ' <h2>Licença Prévia (LP)</h2> <p>A Licença Prévia (LP) é um documento que autoriza a viabilidade ambiental de um empreendimento ou atividade, indicando sua localização e concepção.</p> <button>Fazer Orçamento</button>';
         break;
       case 'li':
-        content = 'A Licença de Instalação (LI) é um documento que autoriza o início da construção, montagem, instalação, ampliação, alteração ou reforma de um empreendimento.';
+        content = '<h2>Licença de Instalação (LI)</h2><p>A Licença de Instalação (LI) é um documento que autoriza o início da construção, montagem, instalação, ampliação, alteração ou reforma de um empreendimento.</p> <button>Fazer Orçamento</button>';
         break;
-   
+      case 'lo':
+        content = '<h2>Licença de Operação (LO)</h2><p>A Licença de Operação (LO) é um documento que autoriza o início das atividades de um empreendimento após a conclusão da construção, garantindo o cumprimento de normas ambientais, de saúde e segurança.</p> <button>Fazer Orçamento</button>';  
+        break;
+
       default:
         content = 'Descrição não encontrada.';
     }
