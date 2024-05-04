@@ -59,7 +59,7 @@ $('[data-service]').on('click', function(e) {
     // Verifica qual serviço foi clicado e atribui o conteúdo apropriado
     switch(service) {
       case 'lp':
-        content = 'A Licença Prévia (LP) é um documento que autoriza a viabilidade ambiental de um empreendimento ou atividade, indicando sua localização e concepção.';
+        content = ' <h2>Licença Prévia (LP)</h2> <p>A Licença Prévia (LP) é um documento que autoriza a viabilidade ambiental de um empreendimento ou atividade, indicando sua localização e concepção.</p> <button>Fazer Orçamento</button>';
         break;
       case 'li':
         content = 'A Licença de Instalação (LI) é um documento que autoriza o início da construção, montagem, instalação, ampliação, alteração ou reforma de um empreendimento.';
