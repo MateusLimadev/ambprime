@@ -13,6 +13,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
     type="text/css">
     <script src="https://kit.fontawesome.com/d1c7fe61db.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+
 </head>
 
 <body>
@@ -70,15 +74,25 @@
 
           <h4>Serviços de Licenciamento</h4>
           <ul>
-            <li><a href="#"><i class="fa fa-check"></i>Licença Prévia (LP)</a></li>
-            <li><a href="#"><i class="fa fa-check"></i>Licença de Instalação (LI)</a></li>
-            <li><a href="#"><i class="fa fa-check"></i>Licença de Operação (LO)</a></li>
-            <li><a href="#"><i class="fa fa-check"></i>Renovações de Licenças</a></li>
-            <li><a href="#"><i class="fa fa-check"></i>DAEE - Outorga de captação/lançamento</a></li>
-            <li><a href="#"><i class="fa fa-check"></i>Cadastro IBAMA</a></li>
+            <li><a data-service="lp"><i class="fa fa-check"></i> Licença Prévia (LP)</a></li>
+            <li><a data-service="li"><i class="fa fa-check"></i> Licença de Instalação (LI)</a></li>
+            <li><a data-service="lo"><i class="fa fa-check"></i> Licença de Operação (LO)</a></li>
+            <li><a data-service="renov"><i class="fa fa-check"></i> Renovações de Licenças</a></li>
+            <li><a data-service="daee"><i class="fa fa-check"></i> DAEE - Outorga de captação/lançamento</a></li>
+            <li><a data-service="ibama"><i class="fa fa-check"></i> Cadastro IBAMA</a></li>
+          </ul>
+          
           </ul>
         </div>
       </div>
+
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div id="modal-content"></div>
+        </div>
+      </div>
+      
       <div class="panel animated slideInDown">
 
         <h3>PLANEJAMENTO</h3>
