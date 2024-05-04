@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-// Função para abrir o modal com as informações
+// MODAL
 function openModal(content) {
     $('#modal-content').html(content);
     $('#myModal').css('display', 'block');
@@ -49,12 +49,12 @@ function openModal(content) {
     }
   });
   
-// Ao clicar em um item da lista, exiba o modal com as informações relevantes
+
 $('[data-service]').on('click', function(e) {
-    e.preventDefault(); // Previne o comportamento padrão do link
+    e.preventDefault(); 
     var service = $(this).data('service'); // Obtém o atributo data-service do link clicado
-    var content = ''; // Aqui você adicionará o conteúdo do modal com base no serviço clicado
-    //...
+    var content = ''; 
+    
  
     // Verifica qual serviço foi clicado e atribui o conteúdo apropriado
     switch(service) {
@@ -64,11 +64,11 @@ $('[data-service]').on('click', function(e) {
       case 'li':
         content = 'A Licença de Instalação (LI) é um documento que autoriza o início da construção, montagem, instalação, ampliação, alteração ou reforma de um empreendimento.';
         break;
-      // Adicione os casos para os outros serviços aqui
+   
       default:
         content = 'Descrição não encontrada.';
     }
   
-    openModal(content); // Abre o modal com o conteúdo correspondente
+    openModal(content); 
   });
   

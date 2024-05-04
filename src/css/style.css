@@ -26,7 +26,7 @@ header {
   align-items: center;
   text-align: center;
   padding: 10px;
-  background-color: #fff;
+  background-color: #ffffff;
   font-family: var(--font-principal);
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -761,6 +761,7 @@ footer.bottom .links > a {
 
 .modal-content {
   background-color: #fefefe;
+  color: #25d366;
   margin: 10% auto;
   padding: 20px;
   border: 1px solid #888;
