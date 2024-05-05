@@ -108,14 +108,15 @@ $('[data-service]').on('click', function (e) {
       content = '<h2>Consultoria para transição</h2><p>A Consultoria para Transição é um serviço que oferece apoio especializado para a transição entre diferentes versões de um padrão ou sistema de gestão, como a transição da ISO 9001:2015 para a ISO 9001:2020.</p> <button>Fazer Orçamento</button>'
       break;
     case 'asp':
-      content = '<h2>Auditoria de segunda parte (fornecedores)</h2><p>A Auditoria de Segunda Parte (Fornecedores) é um processo que avalia a conformidade dos fornecedores com os requisitos de qualidade, segurança e meio ambiente estabelecidos.</p> <button>Fazer Orçamento</button>'  
+      content = '<h2>Auditoria de segunda parte (fornecedores)</h2><p>A Auditoria de Segunda Parte (Fornecedores) é um processo que avalia a conformidade dos fornecedores com os requisitos de qualidade, segurança e meio ambiente estabelecidos.</p> <button>Fazer Orçamento</button>'
       break;
     case 'ti':
-      content = '<h2>Treinamento de interpretação</h2><p>O Treinamento de Interpretação é um serviço que fornece conhecimentos e habilidades para a correta interpretação de normas, legislações e padrões de qualidade, segurança e meio ambiente.</p> <button>Fazer Orçamento</button>'  
+      content = '<h2>Treinamento de interpretação</h2><p>O Treinamento de Interpretação é um serviço que fornece conhecimentos e habilidades para a correta interpretação de normas, legislações e padrões de qualidade, segurança e meio ambiente.</p> <button>Fazer Orçamento</button>'
       break;
     case 'tfai':
-      content = '<h2>Treinamento para formação de auditor interno</h2><p>O Treinamento para Formação de Auditor Interno é um serviço que capacitou funcionários para realizar auditorias internas de qualidade, segurança e meio ambiente, de acordo com os padrões e normas estabelecidos.</p> <button>Fazer Orçamento</button>'  
+      content = '<h2>Treinamento para formação de auditor interno</h2><p>O Treinamento para Formação de Auditor Interno é um serviço que capacitou funcionários para realizar auditorias internas de qualidade, segurança e meio ambiente, de acordo com os padrões e normas estabelecidos.</p> <button>Fazer Orçamento</button>'
       break;
+
     default:
       content = 'Descrição não encontrada.';
   }
