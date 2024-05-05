@@ -68,13 +68,13 @@ $('[data-service]').on('click', function (e) {
       content = '<h2>Licença de Operação (LO)</h2><p>A Licença de Operação (LO) é um documento que autoriza o início das atividades de um empreendimento após a conclusão da construção, garantindo o cumprimento de normas ambientais, de saúde e segurança.</p> <button>Fazer Orçamento</button>';
       break;
     case 'renov':
-      content = '<h2>Licença de Operação (LO)</h2><p>A Licença de Operação (LO) é um documento que autoriza o início das atividades de um empreendimento após a conclusão da construção, garantindo o cumprimento de normas ambientais, de saúde e segurança.</p> <button>Fazer Orçamento</button>';
+      content = '<h2>Renovações de Licenças</h2><p>As Renovações de Licenças são processos que visam a manter as licenças ambientais válidas, atualizando-as de acordo com as mudanças nas atividades ou operações do empreendimento.</p> <button>Fazer Orçamento</button>';
       break;
     case 'daee':
-      content = '<h2>Licença de Operação (LO)</h2><p>A Licença de Operação (LO) é um documento que autoriza o início das atividades de um empreendimento após a conclusão da construção, garantindo o cumprimento de normas ambientais, de saúde e segurança.</p> <button>Fazer Orçamento</button>';
+      content = '<h2>Outorga de Captação/Lançamento DAEE</h2><p>A Outorga de Captação/Lançamento DAEE é uma autorização concedida pelo Departamento de Águas e Energia Elétrica (DAEE) para a captação de água ou lançamento de efluentes em corpos hídricos, garantindo o uso sustentável dos recursos hídricos.</p> <button>Fazer Orçamento</button>';
       break;
     case 'ibama':
-      content = '<h2>Licença de Operação (LO)</h2><p>A Licença de Operação (LO) é um documento que autoriza o início das atividades de um empreendimento após a conclusão da construção, garantindo o cumprimento de normas ambientais, de saúde e segurança.</p> <button>Fazer Orçamento</button>';
+      content = '<h2>Cadastro IBAMA</h2><p>O Cadastro IBAMA é um registro obrigatório para empreendimentos que utilizam recursos naturais ou realizam atividades que possam impactar o meio ambiente, como agricultura, pecuária, indústria, etc. Ele é gerenciado pelo Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA) e visa a controlar e monitorar as atividades que possam afetar o meio ambiente.</p> <button>Fazer Orçamento</button>';
       break;
 
     default:
@@ -82,4 +82,12 @@ $('[data-service]').on('click', function (e) {
   }
 
   openModal(content);
+});
+
+
+const modal = document.getElementById('myModal');
+const closeButton = document.querySelector('.close');
+
+closeButton.addEventListener('click', () => {
+  modal.style.display = 'none';
 });

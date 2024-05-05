@@ -810,3 +810,11 @@ footer.bottom .links > a {
   text-decoration: none;
   cursor: pointer;
 }
+
+
+.fa-regular{
+  color: #2ebe57;
+  font-size: 20px;
+  cursor: pointer;
+ 
+}
