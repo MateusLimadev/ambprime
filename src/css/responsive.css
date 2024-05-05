@@ -242,4 +242,12 @@
     width: 70%;
     /* border-radius: 20px; */
   }
+
+  .modal-content h2{
+    font-size: 20px;
+  }
+
+  .modal-content p{
+    font-size: 13px;
+  }
 }
