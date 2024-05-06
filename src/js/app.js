@@ -131,3 +131,5 @@ const closeButton = document.querySelector('.close');
 closeButton.addEventListener('click', () => {
   modal.style.display = 'none';
 });
+
+
