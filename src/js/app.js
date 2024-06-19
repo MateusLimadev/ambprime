@@ -135,7 +135,7 @@ closeButton.addEventListener('click', () => {
 
 
 const form = document.querySelector('form');
-const modal = document.querySelector('#modal');
+
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
